@@ -1,13 +1,13 @@
 # Template for Capstone
 이 레파지토리는 학생들이 캡스톤 프로젝트 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-- [레파지토리 구성](#repository-structure)
-- [레파지토리 제출](#repository-submission)
-- [README.md 가이드라인](#readme-guideline)
-- [README.md 작성팁](#readme-tips)
+1. 레파지토리 구성
+2. 레파지토리 제출
+3. README.md 가이드라인
+4. README.md 작성팁
 
 ***
 
-## 레파지토리 구성 {#repository-structure}
+## 1. 레파지토리 구성 {#repository-structure}
 
 * 조원 중에 한 사람이 본인 github 계정을 가지고 본인 조에 해당하는 github 레파지토리를 생성하세요. 이 때 이름은 "Capstone-{연도}-{학기}-{조번호})" 형식으로 생성하세요.
 * 예를 들어, 2022년도 1학기(전기) 3조는 "Capstone-2022-1-03" 입니다.
@@ -17,18 +17,18 @@
 
 ***
 
-## 레파지토리 제출 {#repository-submission}
+## 2. 레파지토리 제출 {#repository-submission}
 
-1. github 레파지토리의 [Settings] 탭으로 이동, [Collaborators] 클릭, [Add people] 클릭
+2.1. github 레파지토리의 [Settings] 탭으로 이동, [Collaborators] 클릭, [Add people] 클릭
 ![제출이미지1](https://user-images.githubusercontent.com/113662020/193718701-d633d524-e7c7-4131-95fa-639b2757a95f.png)
 
-2. 'PNUCSE' 검색 후 선택, [Add PNUCSE to this repository] 클릭
+2.2. 'PNUCSE' 검색 후 선택, [Add PNUCSE to this repository] 클릭
 ![제출이미지2](https://user-images.githubusercontent.com/113662020/193718974-92dd574f-98fc-4370-8e0b-c6bde81ed021.png)
 
-3. [Manage access] 화면에서 '부산대학교 정보컴퓨터공학부'가 보이고 상태가 'Pending Invite'이면 제출완료
+2.3. [Manage access] 화면에서 '부산대학교 정보컴퓨터공학부'가 보이고 상태가 'Pending Invite'이면 제출완료
 ![제출이미지3](https://user-images.githubusercontent.com/113662020/193719166-8a52326d-c504-47be-b23b-5de03573c41c.png)
 
-## README.md 가이드라인 {#readme-guideline}
+## 3. README.md 가이드라인 {#readme-guideline}
 
 * README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
 * 아래의 5가지 항목이외에 프로젝트의 이해를 돕기 위한 내용을 추가해도 됩니다.
@@ -56,11 +56,11 @@
 
 ***
 
-## README.md 작성팁 {#readme-tips}
+## 3. README.md 작성팁 {#readme-tips}
 * 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
 * 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
 
-### 1. 텍스트 추가
+### 3.1. 텍스트 추가
 ```markdown
 본문입니다.
 
@@ -86,7 +86,7 @@ _italic_
 [link text](URL)
 ```
 
-### 2. 이미지 추가
+### 3.2. 이미지 추가
 
 ```markdown
 <!--![이미지 이름](이미지 URL 링크)-->
@@ -99,7 +99,7 @@ _italic_
 ![이미지 URL 얻기1](https://user-images.githubusercontent.com/113662020/193720098-9f19831b-7107-4a91-9821-a977ff82e8de.png)
 ![이미지 URL 얻기2](https://user-images.githubusercontent.com/113662020/193720141-8b813247-b77b-4590-83cc-f87a4e63296b.png)
 
-### 3. 유튜브 영상 추가
+### 3.3. 유튜브 영상 추가
 ```markdown
 <!--[![영상 이름](유튜브 영상 썸네일 URL)](유투브 영상 URL)-->
 [![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
@@ -107,12 +107,13 @@ _italic_
 [![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
 
 이때 유투브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있다.
+
 '''
 https://www.youtube.com/watch?v={동영상 ID}  // Youtube URL
 http://img.youtube.com/vi/{동영상 ID}/0.jpg  // Youbube Thumbnail URL
 '''
-예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면
-썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
+
+예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면 썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
 
 
 
