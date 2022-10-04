@@ -7,7 +7,7 @@
 
 ***
 
-## 1. 레파지토리 구성 {#repository-structure}
+## 1. 레파지토리 구성 
 
 * 조원 중에 한 사람이 본인 github 계정을 가지고 본인 조에 해당하는 github 레파지토리를 생성하세요. 이 때 이름은 "Capstone-{연도}-{학기}-{조번호})" 형식으로 생성하세요.
 * 예를 들어, 2022년도 1학기(전기) 3조는 "Capstone-2022-1-03" 입니다.
@@ -17,7 +17,7 @@
 
 ***
 
-## 2. 레파지토리 제출 {#repository-submission}
+## 2. 레파지토리 제출 
 
 2.1. github 레파지토리의 [Settings] 탭으로 이동, [Collaborators] 클릭, [Add people] 클릭
 ![제출이미지1](https://user-images.githubusercontent.com/113662020/193718701-d633d524-e7c7-4131-95fa-639b2757a95f.png)
@@ -31,7 +31,7 @@
 
 ***
 
-## 3. README.md 가이드라인 {#readme-guideline}
+## 3. README.md 가이드라인 
 
 * README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
 * 아래의 5가지 항목이외에 프로젝트의 이해를 돕기 위한 내용을 추가해도 됩니다.
@@ -59,7 +59,7 @@
 
 ***
 
-## 3. README.md 작성팁 {#readme-tips}
+## 3. README.md 작성팁 
 * 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
 * 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
 
