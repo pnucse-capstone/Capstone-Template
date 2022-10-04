@@ -112,10 +112,9 @@ _italic_
 
 이때 유투브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있다.
 
-'''C
-https://www.youtube.com/watch?v={동영상 ID}  // Youtube URL
-http://img.youtube.com/vi/{동영상 ID}/0.jpg  // Youbube Thumbnail URL
-'''
+Youtube URL: https://www.youtube.com/watch?v={동영상 ID}
+
+Youtube Thumbnail URL: http://img.youtube.com/vi/{동영상 ID}/0.jpg 
 
 예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면 썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
 
