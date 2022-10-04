@@ -1,16 +1,32 @@
 # Template for Capstone
 이 레파지토리는 학생들이 캡스톤 프로젝트 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
+- [레파지토리 구성](##레파지토리 구성)
+- [레파지토리 제출](##레파지토리 제출)
+- [README.md 가이드라인](##README.md 가이드라인)
+- [README.md 작성팁](##README.md 작성팁)
+
 ***
 
-## 레파지토리 필수구성 안내
+## 레파지토리 구성
 
-* 본인 조에 해당하는 레파지토리를 사용하세요. (https://github.com/PNUCSE/Capstone-{연도}-{학기}-{조번호})
-* 예를 들어, 2022년도 1학기(전기) 3조는 https://github.com/PNUCSE/Capstone-2022-1-03 입니다.
-* docs 디렉토리 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다. (이 레파지토리의 docs 디렉토리 참조)
-* 아래의 가이드라인과 작성팁을 참고하여 README.md 파일을 작성하세요. (이 레파지토리의 SAMPLE_README.md 참조)
+* 조원 중에 한 사람이 본인 github 계정을 가지고 본인 조에 해당하는 github 레파지토리를 생성하세요. 이 때 이름은 "Capstone-{연도}-{학기}-{조번호})" 형식으로 생성하세요.
+* 예를 들어, 2022년도 1학기(전기) 3조는 "Capstone-2022-1-03" 입니다.
+* 레파지토리 내에 README.md 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 README.md 파일을 작성하세요. (이 레파지토리의 SAMPLE_README.md 참조)
+* 레파지토리 내에 docs 디렉토리를 생성하고 docs 디렉토리 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다. (이 레파지토리의 docs 디렉토리 참조)
 * 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 디렉토리를 나누어 구성하세요.
 
 ***
+
+** 레파지토리 제출
+
+1. github 레파지토리의 [Settings] 탭으로 이동, [Collaborators] 클릭, [Add people] 클릭
+![제출이미지1](https://user-images.githubusercontent.com/113662020/193718701-d633d524-e7c7-4131-95fa-639b2757a95f.png)
+
+2. 'PNUCSE' 검색 후 선택, [Add PNUCSE to this repository] 클릭
+![제출이미지2](https://user-images.githubusercontent.com/113662020/193718974-92dd574f-98fc-4370-8e0b-c6bde81ed021.png)
+
+3. [Manage access] 화면에서 '부산대학교 정보컴퓨터공학부'가 보이고 상태가 'Pending Invite'이면 제출완료
+![제출이미지3](https://user-images.githubusercontent.com/113662020/193719166-8a52326d-c504-47be-b23b-5de03573c41c.png)
 
 ## README.md 가이드라인
 
@@ -71,6 +87,7 @@ _italic_
 ```
 
 ### 2. 이미지 추가
+
 ```markdown
 <!--![이미지 이름](이미지 URL 링크)-->
 ![정보융합공학과 이미지](https://user-images.githubusercontent.com/100384365/192478661-5dc79a18-b076-48ef-b842-bcf65b0d8d44.jpg)
@@ -78,10 +95,27 @@ _italic_
 
 ![정보융합공학과 이미지](https://user-images.githubusercontent.com/100384365/192478661-5dc79a18-b076-48ef-b842-bcf65b0d8d44.jpg)
 
+이 때, 이미지 URL은 아래와 같이 github issue를 통해 image file만을 github server에 업로드하고 URL을 얻을 수 있다. (URL만 copy하고 issue 제출 X)
+![이미지 URL 얻기1](https://user-images.githubusercontent.com/113662020/193720098-9f19831b-7107-4a91-9821-a977ff82e8de.png)
+![이미지 URL 얻기2](https://user-images.githubusercontent.com/113662020/193720141-8b813247-b77b-4590-83cc-f87a4e63296b.png)
+
 ### 3. 유튜브 영상 추가
 ```markdown
 <!--[![영상 이름](유튜브 영상 썸네일 URL)](유투브 영상 URL)-->
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://youtu.be/zh_gQ_lmLqE)    
+[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
 ```
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://youtu.be/zh_gQ_lmLqE)    
+[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
+
+이때 유투브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있다.
+'''
+https://www.youtube.com/watch?v={동영상 ID}  // Youtube URL
+http://img.youtube.com/vi/{동영상 ID}/0.jpg  // Youbube Thumbnail URL
+'''
+예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면
+썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
+
+
+
+
+
 
