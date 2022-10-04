@@ -28,6 +28,9 @@
 2.3. [Manage access] 화면에서 '부산대학교 정보컴퓨터공학부'가 보이고 상태가 'Pending Invite'이면 제출완료
 ![제출이미지3](https://user-images.githubusercontent.com/113662020/193719166-8a52326d-c504-47be-b23b-5de03573c41c.png)
 
+
+***
+
 ## 3. README.md 가이드라인 {#readme-guideline}
 
 * README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
