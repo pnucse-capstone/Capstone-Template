@@ -20,19 +20,6 @@
 
 ***
 
-## 2. 레파지토리 제출 
-
-**[주의] 레파지토리 제출은 해당 레파지토리의 ownership을 학과 계정으로 넘기는 것이므로 되돌릴 수 없으니 제출전 꼭 다시 한번 확인하세요.**
-
-2.1. github 레파지토리의 [Settings] 탭으로 이동, [General] 클릭, [Transfer] 클릭
-![제출이미지1](https://user-images.githubusercontent.com/113662020/193962388-260f7195-d113-4b50-b515-129e20a9a51a.png)
-
-2.2. [New owner's Github username or organization name]에 'PNUCSE' 입력하고 confirm 메세지 입력
-![제출이미지2](https://user-images.githubusercontent.com/113662020/193962411-cc5e8c7c-5144-4fea-8f71-1358ef3b1908.png)
-
-
-***
-
 ## 2. README.md 가이드라인 
 
 * README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
