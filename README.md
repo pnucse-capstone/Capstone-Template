@@ -10,7 +10,7 @@
 
 * https://classroom.github.com/a/fnZ3vxy8
 * 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-![repo생성이미지](https://github.com/pnucse-capstone/Capstone-Template/assets/113662020/3a302288-5d9b-4dcb-b510-2ae7748a05fc)
+![repo생성이미지](https://github.com/pnucse-capstone/Capstone-Template-2023/assets/113662020/13e5cc55-0182-4485-b872-bd57eba3fb9b)
 * 레파지토리 생성 시 team 이름은 "{연도}-{학기}-{조번호}" 형식으로 생성하세요.
 * 예를 들어, 2023년도 1학기(전기) 3조의 team 이름은 "2022-1-03" 입니다.
 * 이 경우 "capstone-2023-1-03" 이라는 이름으로 레파지토리가 생성됩니다.
